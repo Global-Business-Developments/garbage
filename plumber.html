@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plumber Portfolio</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
+    <style>
+        .hero-banner {
+            background: url('hero-banner.jpg') no-repeat center center;
+            background-size: cover;
+            color: #fff;
+            padding: 100px 0;
+            text-align: center;
+        }
+        .service-icon {
+            font-size: 3rem;
+            color: #007bff;
+        }
+        .testimonial-item {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">PlumberPro</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#home">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#testimonials">Testimonials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Banner -->
+    <header id="home" class="hero-banner">
+        <div class="container">
+            <h1 class="display-4">Reliable Plumbing Services</h1>
+            <p class="lead">Expert Plumbing Solutions for Your Home and Business</p>
+            <a href="#contact" class="btn btn-primary btn-lg">Get a Quote</a>
+        </div>
+    </header>
+
+    <!-- About -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <h2 class="text-center">About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="plumber.jpg" class="img-fluid" alt="Plumber">
+                </div>
+                <div class="col-md-6">
+                    <p>Hello! I’m [Your Name], a professional plumber with over [X] years of experience in providing high-quality plumbing services. From installations to repairs, I offer comprehensive solutions to ensure your plumbing systems are functioning efficiently.</p>
+                    <p>Whether you need a new water heater installed or a leaky faucet fixed, I am dedicated to delivering excellent service and customer satisfaction. Contact me today to discuss your plumbing needs!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">Services Offered</h2>
+            <div class="row">
+                <div class="col-md-4 text-center">
+                    <div class="service-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h4>Repairs</h4>
+                    <p>Expert repairs for leaks, clogs, and other plumbing issues.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-icon">
+                        <i class="fas fa-tachometer-alt"></i>
+                    </div>
+                    <h4>Installations</h4>
+                    <p>Professional installation of fixtures, water heaters, and more.</p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <div class="service-icon">
+                        <i class="fas fa-shower"></i>
+                    </div>
+                    <h4>Maintenance</h4>
+                    <p>Regular maintenance to keep your plumbing system in top condition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Portfolio</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Residential Bathroom</h5>
+                            <p class="card-text">Complete renovation of a residential bathroom including new fixtures and piping.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Commercial Installation</h5>
+                            <p class="card-text">Installation of plumbing systems in a commercial building.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Emergency Repairs</h5>
+                            <p class="card-text">Rapid response and repair for plumbing emergencies.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section id="testimonials" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center">What My Clients Say</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="testimonial-item">
+                        <p><i class="fas fa-quote-left"></i> Excellent service! Fixed my leaky faucet quickly and efficiently. Highly recommend!</p>
+                        <p class="text-right"><strong>- Client Name</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-item">
+                        <p><i class="fas fa-quote-left"></i> Professional and courteous. Installed my new water heater without any issues.</p>
+                        <p class="text-right"><strong>- Client Name</strong></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="testimonial-item">
+                        <p><i class="fas fa-quote-left"></i> Great job on the bathroom renovation. Very pleased with the results.</p>
+                        <p class="text-right"><strong>- Client Name</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Contact Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Get in Touch</h4>
+                    <p>If you have any questions or would like to schedule a service, feel free to reach out to me using the form below.</p>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-phone"></i> +123 456 7890</li>
+                        <li><i class="fas fa-envelope"></i> plumber@example.com</li>
+                        <li><i class="fas fa-map-marker-alt"></i> 123 Main Street, City, Country</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h4>Contact Form</h4>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Your Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Your Email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p>&copy; 2024 PlumberPro. All Rights Reserved.</p>
+            <div>
+                <a href="#" class="text-white mx-2"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-twitter"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="text-white mx-2"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
