@@ -25,7 +25,7 @@
 <body>
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="#">ShopName</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -57,50 +57,44 @@
     <!-- Hero Banner -->
     <header id="home" class="hero-banner">
         <div class="container">
-            <h1 class="display-4">Welcome to ShopName</h1>
-            <p class="lead">Find the best products at unbeatable prices</p>
+            <h1 class="display-4 text-secondary">Welcome to ShopName</h1>
+            <p class="lead text-dark">Find the best products at unbeatable prices</p>
             <a href="#products" class="btn btn-primary btn-lg">Shop Now</a>
         </div>
     </header>
 
-    <!-- Product Categories -->
+    <!-- Categories -->
     <section id="categories" class="py-5">
         <div class="container">
             <h2 class="text-center">Product Categories</h2>
             <div class="row">
-                <div class="col-md-3 mb-4">
+                <div class="col-md-4 text-center">
                     <div class="card">
-                        <img src="category1.jpg" class="card-img-top" alt="Category 1">
+                        <img src="images/25.jpg" class="card-img-top" alt="Category 1">
                         <div class="card-body">
                             <h5 class="card-title">Category 1</h5>
-                            <a href="#products" class="btn btn-primary">View Products</a>
+                            <p class="card-text">Description of category 1.</p>
+                            <a href="#products" class="btn btn-primary">Shop Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
+                <div class="col-md-4 text-center">
                     <div class="card">
-                        <img src="category2.jpg" class="card-img-top" alt="Category 2">
+                        <img src="images/27.jpg" class="card-img-top" alt="Category 2">
                         <div class="card-body">
                             <h5 class="card-title">Category 2</h5>
-                            <a href="#products" class="btn btn-primary">View Products</a>
+                            <p class="card-text">Description of category 2.</p>
+                            <a href="#products" class="btn btn-primary">Shop Now</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-4">
+                <div class="col-md-4 text-center">
                     <div class="card">
-                        <img src="category3.jpg" class="card-img-top" alt="Category 3">
+                        <img src="images/24.jpg" class="card-img-top" alt="Category 3">
                         <div class="card-body">
                             <h5 class="card-title">Category 3</h5>
-                            <a href="#products" class="btn btn-primary">View Products</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3 mb-4">
-                    <div class="card">
-                        <img src="category4.jpg" class="card-img-top" alt="Category 4">
-                        <div class="card-body">
-                            <h5 class="card-title">Category 4</h5>
-                            <a href="#products" class="btn btn-primary">View Products</a>
+                            <p class="card-text">Description of category 3.</p>
+                            <a href="#products" class="btn btn-primary">Shop Now</a>
                         </div>
                     </div>
                 </div>
@@ -108,16 +102,26 @@
         </div>
     </section>
 
-    <!-- Products -->
+     <!-- Products -->
     <section id="products" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center">Featured Products</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card product-card">
-                        <img src="product1.jpg" class="card-img-top" alt="Product 1">
+                        <img src="images/20.jpg" class="card-img-top" alt="Product 1">
                         <div class="card-body">
                             <h5 class="card-title">Product 1</h5>
+                            <p class="card-text">$19.99</p>
+                            <a href="#cart" class="btn btn-primary">Add to Cart</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <div class="card product-card">
+                        <img src="images/21.jpg" class="card-img-top" alt="Product 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Product 2</h5>
                             <p class="card-text">$29.99</p>
                             <a href="#cart" class="btn btn-primary">Add to Cart</a>
                         </div>
@@ -125,20 +129,10 @@
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card product-card">
-                        <img src="product2.jpg" class="card-img-top" alt="Product 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Product 2</h5>
-                            <p class="card-text">$39.99</p>
-                            <a href="#cart" class="btn btn-primary">Add to Cart</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 mb-4">
-                    <div class="card product-card">
-                        <img src="product3.jpg" class="card-img-top" alt="Product 3">
+                        <img src="images/22.jpg" class="card-img-top" alt="Product 3">
                         <div class="card-body">
                             <h5 class="card-title">Product 3</h5>
-                            <p class="card-text">$49.99</p>
+                            <p class="card-text">$39.99</p>
                             <a href="#cart" class="btn btn-primary">Add to Cart</a>
                         </div>
                     </div>
