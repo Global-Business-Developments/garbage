@@ -343,6 +343,25 @@
             </div>
         </div>
     </footer>
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form values
+            var name = document.getElementById('name').value;
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('message').value;
+
+            // Create WhatsApp URL with pre-filled message
+            var whatsappMessage = `https://api.whatsapp.com/send?phone=919382085005&text=
+                Name: ${encodeURIComponent(name)}%0A
+                Phone: ${encodeURIComponent(email)}%0A
+                Message: ${encodeURIComponent(message)}`;
+
+            // Open WhatsApp with the message
+            window.open(whatsappMessage, '_blank');
+        });
+    </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
