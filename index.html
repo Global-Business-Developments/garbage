@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Business Development Portfolio</title>
+    <title>PHP Developer Portfolio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css">
     <style type="text/css">
@@ -294,21 +294,26 @@
                 </div>
                 <div class="col-md-6">
                     <h4>Contact Form</h4>
-                    <form>
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Your Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea class="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-dark">Send Message</button>
-                    </form>
+                  <form method="post" action="https://script.google.com/macros/s/AKfycbzZf0A0DmY-cniHnr3o8oK_d-Tsu1mbNchixHa59lGNoOFu_lYEkbt4oYqG54Q5CNA/exec">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile</label>
+                        <input type="number" class="form-control" id="mobile" name="mobile" placeholder="Your Mobile">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Send Message</button>
+                 </form>
+
                 </div>
             </div>
         </div>
@@ -326,7 +331,7 @@
             </div>
         </div>
     </footer>
-    <script>
+<!--     <script>
         document.getElementById('contactForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
@@ -344,7 +349,7 @@
             // Open WhatsApp with the message
             window.open(whatsappMessage, '_blank');
         });
-    </script>
+    </script> -->
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
