@@ -1,1 +1,1 @@
-https://global-business-developments.github.io/garbage/
+https://meta4marketing.github.io/garbage/
